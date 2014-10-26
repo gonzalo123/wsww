@@ -1,6 +1,6 @@
 "use strict";
 
-importScripts('socket.io.js');
+importScripts('http://cdn.socket.io/socket.io-1.1.0.js');
 
 var socket = io(self.name),
     ports = [];
