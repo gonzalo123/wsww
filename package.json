@@ -1,0 +1,22 @@
+{
+    "name": "wsww",
+    "version": "0.0.0",
+    "description": "Enclosing socket.io Websocket server inside a HTML5 SharedWorker",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Gonzalo Ayuso",
+        "email": "gonzalo123@gmail.com",
+        "url": "http://gonzalo123.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "socket.io": "1.*"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-jshint": "^0.10.0",
+        "load-grunt-tasks": "^1.0.0"
+    }
+}
