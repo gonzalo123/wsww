@@ -13,6 +13,7 @@ io.sockets.on('connection', function (socket) {
     });
 });
 
+// emulate one broadcast message per second
 setInterval(function() {
     io.emit("message", "Hola " + new Date().getTime());
 }, 1000);
